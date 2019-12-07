@@ -78,3 +78,16 @@ Add Liquid Prompt to ``.bashrc``.
   # liquidprompt
   [[ $- = *i* ]] && source ~/Projects/liquidprompt/liquidprompt
 
+Input Font
+==========
+
+Download fonts from https://input.fontbureau.com/download/.
+
+Unzip and copy ``*.ttf`` files to ``~/.fonts``.
+
+.. code-block:: shell
+
+  unzip Input-Font.zip
+  cd Input_Fonts
+  find . -name *.ttf -type -f -exec cp {} /home/travis/.fonts \;
+  fc-cache -fvx
