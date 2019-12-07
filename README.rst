@@ -45,3 +45,27 @@ Link Vim config file.
 .. code-block:: shell
 
   ln -s $(pwd)/.vimrc ~/.vimrc
+
+Liquid Prompt
+=============
+
+Clone Liquid Prompt project.
+
+.. code-block:: shell
+
+  git clone https://github.com/nojhan/liquidprompt
+
+Link Liquid Prompt config files.
+
+.. code-block:: shell
+
+  ln -s $(pwd)/.liquidpromptrc ~/.liquidpromptrc
+  ln -s $(pwd)/liquid.ps1 ~/.config/liquid.ps1
+
+Add Liquid Prompt to ``.bashrc``.
+
+.. code-block:: shell
+
+  # liquidprompt
+  [[ $- = *i* ]] && source ~/Projects/liquidprompt/liquidprompt
+
