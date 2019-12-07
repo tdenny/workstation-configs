@@ -12,6 +12,15 @@ Link the Tmux config file.
 
 Then, install `Tmux Yank <https://github.com/tmux-plugins/tmux-yank>`_.
 
+Add Tmux to ``.bashrc``
+
+.. code-block:: shell
+
+  # tmux
+  if [ -z "$TMUX" ]; then
+      tmux attach -t default || tmux new -s default
+  fi
+
 Vim
 ===
 
