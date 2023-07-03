@@ -3,7 +3,8 @@ Tmux
 
 Install the `Tmux Plugin Manager <https://github.com/tmux-plugins/tpm>`_.
 
-Link the Tmux config file.
+Link the Tmux config file. Consider updating from upstream
+`tmux config <https://github.com/gpakosz>`_.
 
 .. code-block:: shell
 
