@@ -1,7 +1,8 @@
+filetype plugin indent on
 execute pathogen#infect()
+call pathogen#helptags()
 syntax on
 set nocompatible
-filetype plugin indent on
 
 let g:terraform_align=1
 
@@ -12,3 +13,4 @@ augroup numbertoggle
 	autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
 	autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
+
