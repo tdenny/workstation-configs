@@ -14,3 +14,4 @@ augroup numbertoggle
 	autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
+autocmd FileType rst set colorcolumn=80
