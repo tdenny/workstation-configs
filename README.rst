@@ -99,3 +99,5 @@ Install Tools
 .. code-block:: shell
 
   sudo dnf install exa xclip restview vim
+
+Get the latest release of `bat <https://github.com/sharkdp/bat>`_.
