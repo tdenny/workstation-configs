@@ -25,30 +25,11 @@ Add Tmux to ``.bashrc`` or use ``.bashrc`` in this repo.
 Vim
 ===
 
-Install `pathogen.vim <https://github.com/tpope/vim-pathogen>`_.
+Install `Vundle.vim <https://github.com/VundleVim/Vundle.vim>`_.
 
 .. code-block:: shell
 
-  mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
-Install `Vim Better Whitespace <https://github.com/ntpeters/vim-better-whitespace>`_.
-
-.. code-block:: shell
-
-  git clone https://github.com/ntpeters/vim-better-whitespace ~/.vim/bundle/vim-better-whitespace
-
-Install `Vim reStructured Text <https://github.com/marshallward/vim-restructured-text>`_.
-
-.. code-block:: shell
-
-  git clone https://github.com/marshallward/vim-restructuredtext ~/.vim/bundle/vim-restructured-text
-
-Install `Vim YAML <https://github.com/stephpy/vim-yaml>`_.
-
-.. code-block:: shell
-
-  git clone https://github.com/stephpy/vim-yaml ~/.vim/bundle/vim-yaml
+   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Link Vim config file.
 
@@ -101,3 +82,13 @@ Install Tools
   sudo dnf install exa xclip restview vim
 
 Get the latest release of `bat <https://github.com/sharkdp/bat>`_.
+
+MacOS
+=====
+
+Install raycast.
+Install brew and raycast brew plugin
+Install rectangle window management
+Install Alt-tab
+Install menu bar Stats
+
