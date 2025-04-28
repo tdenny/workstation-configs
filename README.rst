@@ -81,12 +81,13 @@ Install Tools
 
   sudo dnf install xclip restview vim bat ripgrep
 
- - `eza <https://github.com/eza-community/eza/blob/main/INSTALL.md>`_
+- `eza <https://github.com/eza-community/eza/blob/main/INSTALL.md>`_
+- `restview <https://pypi.org/project/restview/>`_
 
 MacOS
 =====
 
- - Install raycast.
- - Install brew and raycast brew plugin
- - Install rectangle window management
+- Install raycast.
+- Install brew and raycast brew plugin
+- Install rectangle window management
 
