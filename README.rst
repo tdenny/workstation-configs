@@ -79,14 +79,14 @@ Install Tools
 
 .. code-block:: shell
 
-  sudo dnf install eza xclip restview vim bat ripgrep
+  sudo dnf install xclip restview vim bat ripgrep
+
+ - `eza <https://github.com/eza-community/eza/blob/main/INSTALL.md>`_
 
 MacOS
 =====
 
-Install raycast.
-Install brew and raycast brew plugin
-Install rectangle window management
-Install Alt-tab
-Install menu bar Stats
+ - Install raycast.
+ - Install brew and raycast brew plugin
+ - Install rectangle window management
 
