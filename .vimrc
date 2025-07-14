@@ -13,6 +13,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'marshallward/vim-restructuredtext'
 Plugin 'stephpy/vim-yaml'
+Plugin 'ledger/vim-ledger'
 
 call vundle#end()
 
